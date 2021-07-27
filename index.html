@@ -1,8 +1,149 @@
-<p>Hello 大家好</p>
-<p>我是霸都丶傲天，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
 
-<ul>
-  <li> <a href="https://www.zhihu.com/people/AJLoveChina">知乎</a> </li>
-  <li> <a href="http://hejie.nigeerhuo.com">我的博客(已经不更细了,现在在知乎写文章)</a> </li>
-</ul>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+        引擎·星辰
+    </title>
+    <style type="text/css">
+        body{
+            padding:5% 10% ;
+            background-color: rgb(79, 182, 88);
+        }
+        .sehs a{
+            border: 2px solid green;
+            display:block;
+            width:200px;
+            padding:2px;
+            margin: 5px;
+            float:left;
+            transition:color 3.3s;
+            color: rgb(0, 0, 0);
+        }
+        a:link    {background-color:rgb(44, 177, 44);}/*没看过的*/
+        a:visited {background-color:rgb(85, 173, 31);}/*看过的*/
+        a:hover   {background-color:rgb(201,247,118);}/*鼠标放在上面*/
+        a:active  {background-color:rgb(69, 189, 39);}/*鼠标输出*/
+        
+        
+        .search{
+            border: 2px solid green;
+        }
+        #search_content{
+            background-color: rgb(74, 173, 87);
+            width:500px;
+            font-size: large;
+            padding: 10px;
+        }
+        #search_button{
+            background-color: rgb(74, 173, 87);
+            font-size: large;
+            padding: 10px;
+        }
+    </style>
+    <script type="text/javascript" >function search() {
+        var st = document.getElementById("search_content").value;
+        var se = document.getElementsByName("search_choose");
+        if (se[0].checked)
+            window.open("https://cn.bing.com/search?q=" + st);
+        if (se[1].checked)
+            window.open("https://www.baidu.com/s?wd=" + st);
+        if (se[2].checked)
+            window.open("https://www.google.com/search?q=" + st);
+        if (se[3].checked)
+            window.open("https://www.haosou.com/s?q=" + st);
+        if (se[4].checked)
+            window.open("http://www.sogou.com/web?query=" + st);
+        if (se[5].checked)
+            window.open("http://www.chinaso.com/newssearch/all/allResults?q=" + st);
+    }
+    </script>
+</head>
+
+<body>
+    <div class="search">
+        <input id="search_content" onfocus="this.select()" onblur="if (value ==&#39;&#39;){value=&#39;你想知道什么？&#39;}" onclick="if(this.value==&#39;你想知道什么？&#39;)this.value=&#39;&#39;" onmouseover="this.focus()" onkeydown="if(event.keyCode==13)search();" value="你想知道什么？">
+        <input id="search_button" type="button" onclick="search();" value="搜 索">
+        <input name="search_choose" type="radio" value="0" checked="checked">Bing
+        <input name="search_choose" type="radio" value="1">百度
+        <input name="search_choose" type="radio" value="2">谷歌
+        <input name="search_choose" type="radio" value="3">好搜
+        <input name="search_choose" type="radio" value="4">搜狗
+        <input name="search_choose" type="radio" value="5">中国搜索
+    </div>
+    <div class="sehs">
+        <!--Search engine hyperlink set-->
+        <p>部分网站国内无法代开，可以试着开个VPN，只是VPN一般都不安全，看着用吧</p>
+        <a href="http://www.bing.com/" target="_blank">Bing</a>
+        <a href="http://www.baidu.com/" target="_blank">百度</a>
+        <a href="https://yandex.com/" target="_blank">Yandex</a>
+        <a href="https://duckduckgo.com/" target="_blank">DuckDuckGo</a>
+        <a href="https://www.ask.com/" target="_blank">Ask</a>
+        <a href="http://www.yahoo.com/" target="_blank">Yahoo!</a>
+        <a href="https://www.aol.com/" target="_blank">Aol.</a>
+        <a href="https://archive.org/" target="_blank">Internet Archive</a>
+        <a href="https://www.wolframalpha.com/" target="_blank">WolframAlpha</a>
+        <a href="https://www.sogou.com/" target="_blank">搜狗</a>
+        <a href="https://www.so.com/" target="_blank">360搜索</a>
+        <a href="https://quark.sm.cn/" target="_blank">神马</a>
+        <a href="https://yandex.com/" target="_blank">Yandex(Яндекс)</a>
+        <a href="https://www.wolframalpha.com/" target="_blank">WolframAlpha</a>
+        <a href="https://www.webcrawler.com/" target="_blank">WolframAlpha</a>
+        <a href="http://www.cnous.ch/" target="_blank">cnous[瑞]</a>
+        <a href="http://www.yandex.ru/" target="_blank">Yandex[俄]</a>
+        <a href="http://www.naver.com/" target="_blank">naver[韩]</a>
+        <a href="http://www.google.com.hk/" target="_blank">谷歌搜索</a>
+        <a href="http://www.rambler.ru/" target="_blank">rambler[俄]</a>
+        <a href="http://www.goo.ne.jp/" target="_blank">Goo[日]</a>
+        <a href="http://www.go.com/" target="_blank">Go.com[美]</a>
+        <a href="http://www.tiscali.it/" target="_blank">tiscali</a>
+        <a href="http://www.meta.ua/" target="_blank">meta[乌]</a>
+        <a href="http://www.webcrawler.com/" target="_blank">Webcrawler</a>
+        <a href="http://www.excite.com/" target="_blank">Excite[美]</a>
+        <a href="http://www.lycos.com/" target="_blank">Lycos[美]</a>
+        <a href="http://infospace.com/" target="_blank">Infospace</a>
+        <a href="http://saucenao.com/" target="_blank">SauceNAO 以图搜图</a>
+        <a href="http://www.dmoz.org/" target="_blank">DMOZ</a>
+        <a href="http://www.najdi.si/" target="_blank">Niceone[爱尔兰]</a>
+        <a href="http://www.search.com/" target="_blank">CNet Search[美]</a>
+        <a href="http://www.wlw.de/" target="_blank">Wlw[德]</a>
+        <a href="http://www.splut.com/" target="_blank">Splut[英]</a>
+        <a href="http://www.ceek.jp/" target="_blank">Ceek[日]</a>
+        <a href="http://www.yippy.com/" target="_blank">Yippy</a>
+        <a href="http://www.jubii.dk/" target="_blank">Jubii[丹麦]</a>
+        <a href="http://www.hotbot.com/" target="_blank">HotBot[美]</a>
+        <a href="http://torrent-finder.info/" target="_blank">BT搜索引擎</a>
+        <a href="http://www.goto.com/" target="_blank">Goto.com[美]</a>
+        <a href="http://www.ciao.es/" target="_blank">Ciao[西班牙]</a>
+        <a href="http://www.voila.fr/" target="_blank">voila[法]</a>
+        <a href="http://www.looksmart.com/" target="_blank">LookSmart[美]</a>
+        <a href="http://www.hit-parade.com/" target="_blank">Hit-Parade[法]</a>
+        <a href="http://www.altavista.com/" target="_blank">Alta Vista[美]</a>
+        <a href="http://www.all.by/" target="_blank">All[白俄]</a>
+        <a href="http://www.gogreece.com/" target="_blank">Gogreece[希腊]</a>
+        <a href="http://www.slider.com/" target="_blank">Slider Search</a>
+        <a href="http://www.sunsteam.com/" target="_blank">Sunsteam[挪威]</a>
+        <a href="http://www.sputtr.com/" target="_blank">Sputtr</a>
+        <a href="http://www.searchengine.com/" target="_blank">SearchEngine[英]</a>
+        <a href="http://www.newmalaysia.com/" target="_blank">New Malaysia[马来]</a>
+        <a href="http://www.kellysearch.com/" target="_blank">Kellysearch</a>
+        <a href="http://www.accoona.com/" target="_blank">accoona</a>
+        <a href="http://www.anzwers.com.au/" target="_blank">Answers[澳大利亚]</a>
+        <a href="http://www.walhello.com/" target="_blank">Walhello[芬兰]</a>
+        <a href="http://www.bellnet.de/" target="_blank">Bellnet[德]</a>
+        <a href="http://www.buscapique.com/" target="_blank">Buscapique</a>
+        <a href="http://www.blinde-kuh.ch/" target="_blank">blinde-kuh[瑞]</a>
+        <a href="http://www.apali.com/" target="_blank">Apali[西]</a>
+        <a href="http://www.abrexa.co.uk/" target="_blank">abrexa[英]</a>
+        <a href="http://www.yabba.com/" target="_blank">Yabba![德]</a>
+        <a href="http://infoo.se/" target="_blank">infoo[瑞典]</a>
+        <a href="http://www.akavita.by/" target="_blank">Akavita[白俄]</a>
+        <a href="http://www.acoon.de/" target="_blank">Acoon[德]</a>
+        <a href="http://www.helles-koepfchen.ch/" target="_blank">helles-koepfchen[瑞]</a>
+        <a href="http://www.google.com/" target="_blank">Google[美]</a>
+        <a href="http://www.abacho.ch/" target="_blank">Abacho[瑞]</a>
+        <a href="http://www.abacho.com/" target="_blank">abacho</a>
+        <a href="http://www.cusco.pt/" target="_blank">Cusco[葡]</a>
+        <a href="http://www.fireball.de/" target="_blank">Fireball[德]</a>
+        <a href="http://www.godado.it/" target="_blank">Godado[意]</a>
+    </div>
+
+</body></html>
